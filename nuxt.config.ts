@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   routeRules: {
     '/': {
       redirect: "http://localhost:3000/bridge"
+    },
+    '/game': {
+      ssr: false
     }
-  },
+  }
 })
